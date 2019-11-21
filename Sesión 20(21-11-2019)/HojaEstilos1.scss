@@ -1,0 +1,26 @@
+@font-face{
+    font-family: miFuente1;
+    src: url("Pacifico-Regular.ttf");
+}
+$fuente1: "Fanklin Gothic Medium", "Arial Narrow", Arial, sans-serif; /*Declaración de la variable*/
+$fuente2: mifuente1;
+div{
+    width: 80%;
+    min-height: 400px;
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    .cajaroja{
+        width: 60%;
+        min-height: 200px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: $fuente1;/*Utilización de la variable*/
+    }
+}
+.div2{
+    font-family: $fuente2;
+    text-align: center;
+}
