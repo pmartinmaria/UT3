@@ -1,0 +1,10 @@
+@import "HojaEstiloImportar.scss";
+$fuente1: Helvetica,
+sans-serif;
+$colorprincipal:rgb(187, 57, 57);
+
+body {
+    font: 1em $fuente1;
+    /*Propiedad para poner la familia y tamaño en una sola propiedad*/
+    color: $colorprincipal;
+}

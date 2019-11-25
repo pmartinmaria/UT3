@@ -1,0 +1,17 @@
+@charset "UTF-8";
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1em;
+}
+
+body {
+  font: 1em Helvetica, sans-serif;
+  /*Propiedad para poner la familia y tamaño en una sola propiedad*/
+  color: #bb3939;
+}
+
+/*# sourceMappingURL=hojaestilos2.css.map */

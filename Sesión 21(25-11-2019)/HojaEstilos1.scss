@@ -1,0 +1,30 @@
+.capaContenedora1{
+    width: 80%;
+    min-height: 200px;
+    background-color: rgb(240, 18, 18);
+    margin-left: auto;
+    margin-right: auto;
+    > .capaHija1{ /*Selector hijo. Anido en Sass*/
+        width: 50%;
+        min-height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(255, 251, 6);
+    }
+}
+.capaContenedora2{
+    margin-top: 20px;
+    width: 80%;
+    min-height: 200px;
+    background-color: rgb(22, 138, 214);
+    margin-left: auto;
+    margin-right: auto;
+     .capaHija2{ /*Selector descendente. Anido en Sass*/
+         border: 1px solid blanchedalmond;
+        width: 50%;
+        min-height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(26, 218, 224);
+    }
+}
