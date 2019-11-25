@@ -14,4 +14,44 @@ body {
   color: #bb3939;
 }
 
+.contenedor {
+  width: 70%;
+  margin: auto;
+  border: 1px solid black;
+  display: flow-root;
+  /*A pesar de no darle altura al contenedor, permite que éste se adecue a los elemento s(float)
+  que contiene*/
+}
+
+article[role=main] {
+  float: left;
+  width: 62.5%;
+  background-color: salmon;
+  min-height: 200px;
+}
+
+aside[role=complementary] {
+  float: right;
+  width: 37.5%;
+  background-color: sandybrown;
+  min-height: 200px;
+}
+
+/*Prueba de operadores*/
+h3 {
+  font-size: 10px;
+}
+
+h4 {
+  font-size: 4px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+h6 {
+  /*font-size: 10px +2em; no compila el preprocesador porque no son unidades compatibles*/
+}
+
 /*# sourceMappingURL=hojaestilos2.css.map */
