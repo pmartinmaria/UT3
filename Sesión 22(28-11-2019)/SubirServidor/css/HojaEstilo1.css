@@ -1,0 +1,58 @@
+@charset "UTF-8";
+.capaBorderRadius3__texto1, .capaBorderRadius2__texto1, .capaBorderRadius1__texto1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: underline blue;
+  font-size: 1.5rem;
+}
+
+.capaBorderRadius1 {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  width: 33.3333333333%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+.capaBorderRadius1:hover {
+  background-image: url("../../../../Img reserva/Bandera_de_España_(nuevo_diseño).png");
+  background-size: contain;
+}
+.capaBorderRadius2 {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  width: 33.3333333333%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid blue;
+}
+.capaBorderRadius2:hover {
+  background-color: darkslategray;
+}
+.capaBorderRadius3 {
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  border-radius: 60px;
+  width: 33.3333333333%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid green;
+}
+.capaBorderRadius3:hover {
+  background-color: mediumspringgreen;
+}
+
+/*# sourceMappingURL=HojaEstilo1.css.map */
