@@ -1,0 +1,18 @@
+.caja--combinada, .caja--espaciadoextra, .caja--fondo, .caja--borde, .caja {
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.caja--combinada, .caja--borde {
+  border: 1px solid #ddd;
+}
+
+.caja--combinada, .caja--fondo {
+  background-color: #f0f0f0;
+}
+
+.caja--combinada, .caja--espaciadoextra {
+  padding: 20px;
+}
+
+/*# sourceMappingURL=HojaEstilo1.css.map */

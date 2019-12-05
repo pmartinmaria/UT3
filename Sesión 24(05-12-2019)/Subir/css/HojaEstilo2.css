@@ -1,0 +1,14 @@
+.contenedorFlex {
+  display: flex;
+  background-color: dodgerblue;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.contenedorFlex > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=hojaestilo2.css.map */
