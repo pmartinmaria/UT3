@@ -1,0 +1,86 @@
+%capaHija {
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.8rem;
+    border: 2px solid black;
+}
+
+%contenedor {
+    display: flex;
+    min-height: 400px;
+    align-items: center; //Alinear verticalmente del contenedor
+}
+
+.contenedorFlex {
+    @extend %contenedor;
+    background-color: dodgerblue;
+
+    >div {
+        @extend %capaHija;
+        width: 50%;
+        background-color: rgb(248, 99, 248);
+    }
+}
+
+//Centrado completo
+.contenedorFlexCentrado {
+    @extend %contenedor;
+    background-color: lightslategray;
+    justify-content: center; //Alineación horizontal
+
+    >div {
+        @extend %capaHija;
+        background-color: lightseagreen;
+    }
+}
+
+//Utilización de aling-content para ordenar muchas capas
+.contenedorFlex2 {
+    @extend %contenedor;
+    background-color: dodgerblue;
+    align-content: space-between; //Modificaciones y alineaciones verticales
+    flex-wrap: wrap; //Utilización para que se adapte al tamaño de la página
+    justify-content: center;
+    align-items: baseline;
+
+    >div {
+        @extend %capaHija;
+        background-color: rgb(248, 99, 248);
+    }
+}
+
+//----------------------------------------------------------------------------------
+//Ejercicio práctico de centrado
+%contenedorf {
+    display: flex;
+    background-color: lightblue;
+    min-height: 200px;
+    justify-content: center;
+    border: pink 2px solid;
+}
+
+%capaCentrada {
+    background-color: pink;
+    margin: 15px;
+    padding: 18px;
+    font-size: 2rem;
+}
+
+.contenedorFCentradoHorizontal {
+    @extend %contenedorf;
+
+    >div {
+        @extend %capaCentrada;
+    }
+}
+
+.contenedorFCentradoPerfecto {
+    @extend %contenedorf;
+    align-items: center;
+
+    >div {
+        @extend %capaCentrada;
+    }
+}
+
+//Fin ejercicio centrado

@@ -1,0 +1,60 @@
+.contenedorFlex2 > div, .contenedorFlexCentrado > div, .contenedorFlex > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 1.8rem;
+  border: 2px solid black;
+}
+
+.contenedorFlex2, .contenedorFlexCentrado, .contenedorFlex {
+  display: flex;
+  min-height: 400px;
+  align-items: center;
+}
+
+.contenedorFlex {
+  background-color: dodgerblue;
+}
+.contenedorFlex > div {
+  width: 50%;
+  background-color: #f863f8;
+}
+
+.contenedorFlexCentrado {
+  background-color: lightslategray;
+  justify-content: center;
+}
+.contenedorFlexCentrado > div {
+  background-color: lightseagreen;
+}
+
+.contenedorFlex2 {
+  background-color: dodgerblue;
+  align-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+.contenedorFlex2 > div {
+  background-color: #f863f8;
+}
+
+.contenedorFCentradoPerfecto, .contenedorFCentradoHorizontal {
+  display: flex;
+  background-color: lightblue;
+  min-height: 200px;
+  justify-content: center;
+  border: pink 2px solid;
+}
+
+.contenedorFCentradoPerfecto > div, .contenedorFCentradoHorizontal > div {
+  background-color: pink;
+  margin: 15px;
+  padding: 18px;
+  font-size: 2rem;
+}
+
+.contenedorFCentradoPerfecto {
+  align-items: center;
+}
+
+/*# sourceMappingURL=HojaEstilos1.css.map */
