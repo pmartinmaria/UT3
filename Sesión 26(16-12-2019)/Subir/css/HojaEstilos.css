@@ -1,0 +1,60 @@
+.contenedorFlex {
+  display: flex;
+  width: 500px;
+  background-color: chocolate;
+  min-height: 200px;
+  padding: 12px;
+}
+.contenedorFlex > .elemento1 {
+  flex-grow: 1;
+  flex-basis: 200px;
+  background-color: lightgoldenrodyellow;
+}
+.contenedorFlex > .elemento2 {
+  flex-basis: auto;
+  flex-grow: 2;
+  background-color: lightgoldenrodyellow;
+}
+.contenedorFlex > .elemento3 {
+  flex-basis: auto;
+  flex-grow: 2;
+  background-color: lightgoldenrodyellow;
+}
+.contenedorFlex > .elementoHijo1 {
+  background-color: orange;
+  padding: 10px;
+  align-self: flex-end;
+}
+.contenedorFlex > .elementoHijo2 {
+  background-color: orange;
+  padding: 10px;
+  align-self: flex-start;
+}
+
+.contenedorFlex2 {
+  display: flex;
+  background-color: chocolate;
+  min-height: 200px;
+  padding: 12px;
+}
+.contenedorFlex2 > .elemento1 {
+  background-color: orange;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedorFlex2 > .elemento1 > .elemento1_1 {
+  background-color: #f0ba57;
+  padding: 10px;
+}
+.contenedorFlex2 > .elemento1 > .elemento1_2 {
+  background-color: #f0ba57;
+  padding: 10px;
+}
+.contenedorFlex2 > .elemento2 {
+  background-color: orange;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=HojaEstilos.css.map */

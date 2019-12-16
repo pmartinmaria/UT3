@@ -1,0 +1,57 @@
+.contenedorFlex{
+    display: flex;
+    width: 500px;
+    background-color: chocolate;
+    min-height: 200px;
+    padding: 12px;
+    >.elemento1{
+        flex-grow: 1;
+        flex-basis: 200px;
+        background-color: lightgoldenrodyellow;
+    }
+    >.elemento2{
+        flex-basis: auto;
+        flex-grow: 2;
+        background-color: lightgoldenrodyellow;
+    }
+    >.elemento3{
+        flex-basis: auto;
+        flex-grow: 2;
+        background-color: lightgoldenrodyellow;
+    }
+    >.elementoHijo1{
+        background-color: orange;
+        padding: 10px;
+        align-self: flex-end;
+    }
+    >.elementoHijo2{
+        background-color: orange;
+        padding: 10px;
+        align-self: flex-start;
+    }
+}
+.contenedorFlex2{
+    display: flex;
+    background-color: chocolate;
+    min-height: 200px;
+    padding: 12px;
+    >.elemento1{
+        background-color: orange;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        >.elemento1_1{
+            background-color: rgb(240, 186, 87);
+            padding: 10px;
+        }
+        >.elemento1_2{
+            background-color: rgb(240, 186, 87);
+            padding: 10px;
+        }
+    }
+    >.elemento2{
+        background-color: orange;
+        padding: 10px;
+    }
+}
